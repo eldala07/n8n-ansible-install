@@ -1,5 +1,5 @@
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=0635178ae932&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=757518b6929f&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 # Nodemation on DigitalOcean with Ansible
 > Complete ansible playbook to provision and deploy nodemation to a Digital Ocean droplet.
@@ -7,7 +7,7 @@
 ## One Click Install. 
 If you would prefer to NOT install n8n with ansible, and simply use Digital Ocean's App Platform, you can use this button to deploy this app template to the Digital Ocean App Platform. Doing this is slightly more expensive because you have to pay for the app & the database monthly. Whereas if you use ansible & this playbook you can install the app and the database into the same droplet and that costs less each month. But for those of you who don't want to deal with getting into the command line... it's a nice alternative. 
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/johnkraczek/n8n-app-do/tree/master&refcode=0635178ae932)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/johnkraczek/n8n-app-do/tree/master&refcode=757518b6929f)
 
 ## Intro
 This project created to be a one step playbook to deploy new nodemation instances to [DigitalOcean](https://m.do.co/c/0635178ae932) 
