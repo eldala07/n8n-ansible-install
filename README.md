@@ -53,3 +53,6 @@ Run this command to renew the certificate manually.
 The certificate renewal has been setup on a cronjob to run once every 2 months, The certificate expires every 3 months, giving you a month to fix certificate renewal issues if found.  
 
 `ansible-playbook main.yml --tags=certificate` 
+
+## push with ssh keys on github
+https://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-for-a-given-domain
