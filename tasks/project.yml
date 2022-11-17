@@ -12,7 +12,7 @@
   npm:
     name: n8n
     global: yes
-    state: present
+    state: latest
   environment:
     PATH: "{{ ansible_env.PATH }}:{{npm_path}}"
 
