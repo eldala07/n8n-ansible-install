@@ -54,5 +54,25 @@ The certificate renewal has been setup on a cronjob to run once every 2 months, 
 
 `ansible-playbook main.yml --tags=certificate` 
 
-## push with ssh keys on github
+## Push with ssh keys on github
 https://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-for-a-given-domain
+
+### custom keys path for github.com
+in `~/.ssh/config`:
+```
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile /home/eldala07/.ssh/id_rsa.github
+  IdentitiesOnly yes
+```
+
+### git configuration
+`chmod 400 ~/.ssh/id_rsa.github`
+`git config pull.rebase true`
+`git config pull.rebase true`
+`git remote set-url github_with_keys git@github.com:eldala07/n8n-ansible-install.git`
+
+### Push changes
+`git push -u github_with_keys master`
+
