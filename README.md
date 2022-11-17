@@ -69,8 +69,11 @@ Host github.com
 
 ### git configuration
 `chmod 400 ~/.ssh/id_rsa.github`
+
 `git config pull.rebase true`
+
 `git config pull.rebase true`
+
 `git remote set-url github_with_keys git@github.com:eldala07/n8n-ansible-install.git`
 
 ### Push changes
