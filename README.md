@@ -82,9 +82,15 @@ Host github.com
 
 ## Fixing issues installing updates of n8n
 `ssh -i ~/.ssh/id_rsa root@<n8n_url>`
+
 `sudo su - <user>`
+
 `nvm use v18.12.0`
+
 `nvm uninstall v16.13.0`
+
 `nvm install v16.13.0`
+
 `nvm use v16.13.0`
-`ansible-playbook main.yml` 
+
+`ansible-playbook main.yml`
