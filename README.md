@@ -57,7 +57,7 @@ The certificate renewal has been setup on a cronjob to run once every 2 months, 
 ## Push with ssh keys on github
 https://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-for-a-given-domain
 
-### custom keys path for github.com
+### Custom keys path for github.com
 in `~/.ssh/config`:
 ```
 Host github.com
@@ -67,7 +67,7 @@ Host github.com
   IdentitiesOnly yes
 ```
 
-### git configuration
+### Git configuration
 `chmod 400 ~/.ssh/id_rsa.github`
 
 `git config pull.rebase true`
@@ -79,3 +79,5 @@ Host github.com
 ### Push changes
 `git push -u github_with_keys master`
 
+## Update n8n
+`ansible-playbook main.yml` 
