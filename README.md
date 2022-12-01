@@ -72,12 +72,19 @@ Host github.com
 
 `git config pull.rebase true`
 
-`git config pull.rebase true`
-
 `git remote set-url github_with_keys git@github.com:eldala07/n8n-ansible-install.git`
 
 ### Push changes
 `git push -u github_with_keys master`
 
 ## Update n8n
+`ansible-playbook main.yml` 
+
+## Fixing issues installing updates of n8n
+`ssh -i ~/.ssh/id_rsa root@<n8n_url>`
+`sudo su - <user>`
+`nvm use v18.12.0`
+`nvm uninstall v16.13.0`
+`nvm install v16.13.0`
+`nvm use v16.13.0`
 `ansible-playbook main.yml` 
